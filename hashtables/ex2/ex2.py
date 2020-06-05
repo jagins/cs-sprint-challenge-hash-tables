@@ -7,13 +7,6 @@ class Ticket:
         return f'Ticket: {self.source}, {self.destination}'
 
 def reconstruct_trip(tickets, length):
-    #ticket(none, pdx)
-    #ticket(pdx, dca)
-    #ticket(dca, none)
-    
-    #starting location is none
-    #value = destination
-    
     routeMap = {}
     route = []
     for ticket in tickets:
